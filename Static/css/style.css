@@ -163,6 +163,7 @@ nav ul li{
     margin-top: 20px;
 }
 
+
 #ofertas{
     display: flex;
     flex-flow: row wrap;
@@ -192,6 +193,16 @@ nav ul li{
 #catalogo{
     display: flex;
     grid-area: productos;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+/* se agrega productos */
+#productos{
+    display: flex;
+    grid-area: oferta;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-end;

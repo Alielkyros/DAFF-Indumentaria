@@ -146,6 +146,9 @@ h1{
     background: gray;
 }
 
+.error{
+    color: white;
+}
 footer {
     display: flex;
     height: 100px;
